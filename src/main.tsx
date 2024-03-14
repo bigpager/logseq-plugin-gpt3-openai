@@ -161,7 +161,7 @@ const LogseqApp = () => {
     });
     logseq.Editor.registerSlashCommand("gpt-page", runGptPage);
     logseq.Editor.registerBlockContextMenuItem("gpt-page", runGptPage);
-    logseq.Editor.registerSlashCommand("gpt-block", runGptBlock);
+    logseq.Editor.registerSlashCommand("gpt-block", runGptBlock); // asdf
     logseq.Editor.registerBlockContextMenuItem("gpt-block", runGptBlock);
     logseq.Editor.registerSlashCommand("dalle", runDalleBlock);
     logseq.Editor.registerBlockContextMenuItem("dalle", runDalleBlock);
